@@ -1,3 +1,26 @@
+## gz_launch_vendor (jazzy) - 0.0.3-1
+
+The packages in the `gz_launch_vendor` repository were released into the `jazzy` distro by running `/usr/bin/bloom-release --new-track --track jazzy --rosdistro jazzy gz_launch_vendor` on `Thu, 25 Apr 2024 21:32:18 -0000`
+
+The `gz_launch_vendor` package was released.
+
+Version of package(s) in repository `gz_launch_vendor`:
+
+- upstream repository: https://github.com/gazebo-release/gz_launch_vendor.git
+- release repository: https://github.com/ros2-gbp/gz_launch_vendor-release.git
+- rosdistro version: `0.0.2-1`
+- old version: `0.0.2-1`
+- new version: `0.0.3-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## gz_launch_vendor (rolling) - 0.1.0-1
 
 The packages in the `gz_launch_vendor` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --track rolling --rosdistro rolling gz_launch_vendor` on `Tue, 23 Apr 2024 14:56:33 -0000`
