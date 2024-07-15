@@ -21,18 +21,13 @@ find_package(ament_cmake_export_dependencies REQUIRED)
 
 find_package(gz_cmake_vendor REQUIRED)
 find_package(gz_common_vendor REQUIRED)
-find_package(gz_fuel_tools_vendor REQUIRED)
 find_package(gz_gui_vendor REQUIRED)
 find_package(gz_math_vendor REQUIRED)
 find_package(gz_msgs_vendor REQUIRED)
-find_package(gz_physics_vendor REQUIRED)
 find_package(gz_plugin_vendor REQUIRED)
-find_package(gz_rendering_vendor REQUIRED)
-find_package(gz_sensors_vendor REQUIRED)
 find_package(gz_sim_vendor REQUIRED)
 find_package(gz_tools_vendor REQUIRED)
 find_package(gz_transport_vendor REQUIRED)
-find_package(sdformat_vendor REQUIRED)
 
 # Set the VERSION_MATCH to "EXACT" by default, but relax the requirement
 # if we are users are building from source (determined by the
@@ -72,18 +67,13 @@ endif()
 ament_export_dependencies(
   gz_cmake_vendor
   gz_common_vendor
-  gz_fuel_tools_vendor
   gz_gui_vendor
   gz_math_vendor
   gz_msgs_vendor
-  gz_physics_vendor
   gz_plugin_vendor
-  gz_rendering_vendor
-  gz_sensors_vendor
   gz_sim_vendor
   gz_tools_vendor
   gz_transport_vendor
-  sdformat_vendor
 )
 
 if(NOT ${${LIB_NAME_FULL}_FOUND})
