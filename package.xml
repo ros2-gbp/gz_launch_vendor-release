@@ -10,7 +10,7 @@
     To avoid any confusion with the version of the vendor package, the major
     version here will always be 0.
   -->
-  <version>0.0.3</version>
+  <version>0.0.4</version>
   <description>
     Vendor package for: gz-launch7 7.1.0
 
@@ -43,18 +43,13 @@
   <test_depend>xvfb</test_depend>
   <depend>gz_cmake_vendor</depend>
   <depend>gz_common_vendor</depend>
-  <depend>gz_fuel_tools_vendor</depend>
   <depend>gz_gui_vendor</depend>
   <depend>gz_math_vendor</depend>
   <depend>gz_msgs_vendor</depend>
-  <depend>gz_physics_vendor</depend>
   <depend>gz_plugin_vendor</depend>
-  <depend>gz_rendering_vendor</depend>
-  <depend>gz_sensors_vendor</depend>
   <depend>gz_sim_vendor</depend>
   <depend>gz_tools_vendor</depend>
   <depend>gz_transport_vendor</depend>
-  <depend>sdformat_vendor</depend>
 
   <!-- Depend on the package we are vendoring to allow building it from source -->
   <depend condition="$GZ_BUILD_FROM_SOURCE != ''">gz-launch7</depend>
