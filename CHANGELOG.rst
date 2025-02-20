@@ -2,6 +2,11 @@
 Changelog for package gz_launch_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.1 (2025-02-19)
+------------------
+* Bump version to 8.0.1 (`#5 <https://github.com/gazebo-release/gz_launch_vendor/issues/5>`_)
+* Contributors: Carlos Agüero
+
 0.2.0 (2024-09-30)
 ------------------
 * Bump version to 8.0.0 (`#3 <https://github.com/gazebo-release/gz_launch_vendor/issues/3>`_)
