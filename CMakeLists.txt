@@ -3,8 +3,8 @@ cmake_minimum_required(VERSION 3.10)
 project(gz_launch_vendor)
 
 # Project-specific settings
-set(LIB_VER_MAJOR 7)
-set(LIB_VER_MINOR 1)
+set(LIB_VER_MAJOR 8)
+set(LIB_VER_MINOR 0)
 set(LIB_VER_PATCH 1)
 set(LIB_VER_SUFFIX "")
 
@@ -49,8 +49,6 @@ ament_vendor(${LIB_NAME_UNDERSCORE}_vendor
   SATISFIED ${${LIB_NAME_FULL}_FOUND}
   VCS_URL https://github.com/gazebosim/${GITHUB_NAME}.git
   VCS_VERSION ${GITHUB_NAME}${LIB_VER_MAJOR}_${LIB_VER}${LIB_VER_SUFFIX}
-  CMAKE_ARGS
-    -DBUILD_DOCS:BOOL=OFF
   GLOBAL_HOOK
 )
 
