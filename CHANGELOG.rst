@@ -2,18 +2,11 @@
 Changelog for package gz_launch_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.3.1 (2025-10-01)
+0.2.2 (2025-10-10)
 ------------------
-* Merge pull request `#8 <https://github.com/gazebo-release/gz_launch_vendor/issues/8>`_ from gazebo-release/releasepy/rolling/9.0.0
-  Bump version to 9.0.0
-* Bump version to 9.0.0
-* Add dsv for PYTHONPATH for Jetty packages (`#7 <https://github.com/gazebo-release/gz_launch_vendor/issues/7>`_)
-* Contributors: Carlos Agüero, Jose Luis Rivero, Steve Peters
-
-0.3.0 (2025-09-08)
-------------------
-* Jetty support: 9.0.0-pre1 (`#6 <https://github.com/gazebo-release/gz_launch_vendor/issues/6>`_)
-* Contributors: Steve Peters
+* Merge pull request `#9 <https://github.com/gazebo-release/gz_launch_vendor/issues/9>`_ from gazebo-release/releasepy/kilted/8.0.2
+  Bump version to 8.0.2
+* Contributors: Jose Luis Rivero
 
 0.2.1 (2025-02-19)
 ------------------
