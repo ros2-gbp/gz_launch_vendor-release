@@ -1,0 +1,12 @@
+Source: ros-lyrical-gz-launch-vendor
+Section: misc
+Priority: optional
+Maintainer: Addisu Z. Taddese <addisuzt@intrinsic.ai>
+Build-Depends: debhelper (>= 9.0.0), binutils-dev, cmake, libgflags-dev, libtinyxml2-dev, libwebsockets-dev, libxi-dev, libxmu-dev, libyaml-dev, ros-lyrical-ament-cmake-copyright <!nocheck>, ros-lyrical-ament-cmake-core, ros-lyrical-ament-cmake-lint-cmake <!nocheck>, ros-lyrical-ament-cmake-test, ros-lyrical-ament-cmake-vendor-package, ros-lyrical-ament-cmake-xmllint <!nocheck>, ros-lyrical-gz-cmake-vendor, ros-lyrical-gz-common-vendor, ros-lyrical-gz-gui-vendor, ros-lyrical-gz-math-vendor, ros-lyrical-gz-msgs-vendor, ros-lyrical-gz-plugin-vendor, ros-lyrical-gz-sim-vendor, ros-lyrical-gz-tools-vendor, ros-lyrical-gz-transport-vendor, uuid-dev, xvfb <!nocheck>, ros-lyrical-ros-workspace
+Homepage: https://github.com/gazebosim/gz-launch
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-gz-launch-vendor
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, binutils-dev, libgflags-dev, libtinyxml2-dev, libwebsockets-dev, libxi-dev, libxmu-dev, libyaml-dev, ros-lyrical-gz-cmake-vendor, ros-lyrical-gz-common-vendor, ros-lyrical-gz-gui-vendor, ros-lyrical-gz-math-vendor, ros-lyrical-gz-msgs-vendor, ros-lyrical-gz-plugin-vendor, ros-lyrical-gz-sim-vendor, ros-lyrical-gz-tools-vendor, ros-lyrical-gz-transport-vendor, uuid-dev, ros-lyrical-ros-workspace
+Description: Vendor package for: gz-launch 9.0.0 Gazebo Launch : Run and manage programs and plugins
