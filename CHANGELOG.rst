@@ -2,6 +2,11 @@
 Changelog for package gz_launch_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.3 (2026-06-17)
+------------------
+* Bump version to 8.0.3 (`#10 <https://github.com/gazebo-release/gz_launch_vendor/issues/10>`_)
+* Contributors: Arjo Chakravarty
+
 0.2.2 (2025-10-10)
 ------------------
 * Merge pull request `#9 <https://github.com/gazebo-release/gz_launch_vendor/issues/9>`_ from gazebo-release/releasepy/kilted/8.0.2
