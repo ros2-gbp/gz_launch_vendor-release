@@ -2,6 +2,11 @@
 Changelog for package gz_launch_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.4 (2026-08-31)
+------------------
+* Enable Python bindings (`#14 <https://github.com/gazebo-release/gz_launch_vendor/issues/14>`_)
+* Contributors: Addisu Z. Taddese
+
 0.2.3 (2026-06-17)
 ------------------
 * Bump version to 8.0.3 (`#10 <https://github.com/gazebo-release/gz_launch_vendor/issues/10>`_)
